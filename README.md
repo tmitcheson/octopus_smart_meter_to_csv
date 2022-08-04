@@ -5,15 +5,13 @@ Small repository for connecting to Octopus smart meter api and formatting pulled
 
 ``` 
 git clone https://github.com/tmitcheson/octopus_smart_meter_to_csv.git
+cd octopus_smart_meter_to_csv
 ```
 
-2) Then set up a virtual environment
+2) Then set up a virtual environment and activate it
 
 ```
 python3 -m venv my_env
-```
-and activate it
-```
 source my_env/bin/activate
 ```
 3) Install the requirements from requirements.txt
